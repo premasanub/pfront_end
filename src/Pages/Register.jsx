@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import api from "../Services/api";
+import api from "../Services/Api";
 
 const Register = () => {
   const navigate = useNavigate();
