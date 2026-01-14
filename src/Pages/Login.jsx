@@ -94,7 +94,7 @@ const Login = () => {
           Login
         </button>
         <div className="bg-red-100 p-2 mb-4 text-red-600 font-bold font-serif rounded mt-4">
-          Don't have an account? <a href="/register">Register</a>
+          Don't have an account? <a href="/">Register</a>
         </div>
       </form>
     </div>
