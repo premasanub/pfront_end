@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import api from "../Services/Api";
@@ -60,7 +60,7 @@ const ForgotPassword = () => {
          Submit
         </button>
         <div className="bg-red-100 p-2 mb-4 text-red-600 font-bold font-serif rounded mt-4">
-         Password Remembered ? <a href="/login">login</a>
+         Password Remembered ? <Link to="/login">Login </Link>
         </div>
       </form>
     </div>
