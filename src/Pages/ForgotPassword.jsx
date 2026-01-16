@@ -12,7 +12,7 @@ const ForgotPassword = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await api.post("/api/auth/forgot-password",{ email});
+      const response = await api.post("/auth/forgot-password",{ email});
       toast.success(response.data.message);
       setError(null);
       navigate("/login");
