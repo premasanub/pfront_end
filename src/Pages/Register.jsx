@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate ,Link} from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import api from "../Services/Api";
@@ -103,8 +103,11 @@ const Register = () => {
         >
           Register
         </button>
-        <div className="bg-red-100 p-2 mb-4 text-red-600 font-bold font-serif rounded mt-4">
+        {/* <div className="bg-red-100 p-2 mb-4 text-red-600 font-bold font-serif rounded mt-4">
           Already have an account? <a href="/login">Login</a>
+        </div> */}
+        <div className="bg-red-100 p-2 mb-4 text-red-600 font-bold font-serif rounded mt-4">
+          Already have an account? <Link to="/login">Login </Link>
         </div>
       </form>
     </div>
