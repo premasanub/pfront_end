@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://reset-password-a9lq.onrender.com"
+    baseURL: "https://reset-password-a9lq.onrender.com/api"
 });
 
 api.interceptors.request.use(
