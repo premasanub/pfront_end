@@ -50,4 +50,4 @@ Pull requests are welcome. For major changes, please open an issue first.
 MIT
 
 ## Deployment
-Deployed the API using Render:https://pfront-end.vercel.app
+Deployed the API using Vercel:https://pfront-end.vercel.app
